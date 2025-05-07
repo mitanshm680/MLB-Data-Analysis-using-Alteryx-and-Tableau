@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Teams.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="yearID" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="lgID" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="teamID" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="franchID" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="divID" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Rank" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="G" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Ghome" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="W" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="L" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="DivWin" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="WCWin" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="LgWin" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="WSWin" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="R" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="AB" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="H" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="2B" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="3B" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="HR" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="BB" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="SO" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="SB" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="CS" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="HBP" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="SF" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="RA" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ER" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ERA" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="CG" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="SHO" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="SV" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="IPouts" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="HA" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="HRA" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="BBA" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="SOA" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="E" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="DP" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="FP" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="name" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="park" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="attendance" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="BPF" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PPF" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="teamIDBR" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="teamIDlahman45" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="teamIDretro" size="255" source="File: C:\Users\mitan\Downloads\Teams.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="198" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>yearID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-05-03 23:48:07</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2000</Operand>
+              <StartDate>2025-05-03 23:48:07</StartDate>
+              <EndDate>2025-05-03 23:48:07</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[yearID] &gt;= 2000</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="330" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>teamID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-05-04 11:23:25</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2025-05-04 11:23:25</StartDate>
+              <EndDate>2025-05-04 11:23:25</EndDate>
+              <Operand>NYA</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[teamID] = "NYA"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="462" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [DivWin] = &quot;Y&quot; THEN 1 ELSE 0 ENDIF" field="DivWin_Numeric" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IF [WCWin] = &quot;Y&quot; THEN 1 ELSE 0 ENDIF" field="WCWin_Numeric" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IF [LgWin] = &quot;Y&quot; THEN 1 ELSE 0 ENDIF" field="LgWin_Numeric" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IF [WSWin] = &quot;Y&quot; THEN 1 ELSE 0 ENDIF" field="WSWin_Numeric" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DivWin_Numeric = IF [DivWin] = "Y" THEN 1 ELSE 0 ENDIF
+WCWin_Numeric = IF [WCWin...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="606" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="teamID" action="GroupBy" rename="teamID" />
+            <SummarizeField field="DivWin_Numeric" action="Sum" rename="DivWin" />
+            <SummarizeField field="WCWin_Numeric" action="Sum" rename="WCWin" />
+            <SummarizeField field="LgWin_Numeric" action="Sum" rename="LgWin" />
+            <SummarizeField field="WSWin_Numeric" action="Sum" rename="WSWin" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="762" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mitan\AppData\Local\Temp\Alteryx\Engine_9056_05df8228847346988ab6d6340ebaa4b5_\Engine_9056_0bf4bc85bd364fe282253db696cc8dab~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="762" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\mitan\Alteryx Saves\Alteryx_Final_Lab.xlsx|||1-a-ii</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Alteryx_Final_Lab.xlsx
+Query=1-a-ii</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="True" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>1-a-ii</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d34fdc43-3181-4b63-b23e-9e037648a5db" />
+      <Telemetry>
+        <PreviousWorkflowId value="81693d11-9aff-4989-a48a-0ea3ca51962d" />
+        <OriginWorkflowId value="81693d11-9aff-4989-a48a-0ea3ca51962d" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

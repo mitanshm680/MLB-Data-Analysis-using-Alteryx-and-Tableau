@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>People.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="playerID" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="birthYear" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="birthMonth" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="birthDay" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="birthCountry" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="birthState" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="birthCity" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="deathYear" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="deathMonth" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="deathDay" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="deathCountry" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="deathState" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="deathCity" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="nameFirst" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="nameLast" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="nameGiven" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="weight" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="height" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="bats" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="throws" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="debut" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="finalGame" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="retroID" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="bbrefID" size="255" source="File: C:\Users\mitan\Downloads\People.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\mitan\Alteryx Saves\Alteryx_Final_Lab.xlsx|||`2-b$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Alteryx_Final_Lab.xlsx
+Query=`2-b$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="yearID" source="File: C:\Users\mitan\Alteryx Saves\Alteryx_Final_Lab.xlsx|||`2-b$`" type="Double" />
+            <Field name="teamID" size="255" source="File: C:\Users\mitan\Alteryx Saves\Alteryx_Final_Lab.xlsx|||`2-b$`" type="V_String" />
+            <Field name="lgID" size="255" source="File: C:\Users\mitan\Alteryx Saves\Alteryx_Final_Lab.xlsx|||`2-b$`" type="V_String" />
+            <Field name="playerID" size="255" source="File: C:\Users\mitan\Alteryx Saves\Alteryx_Final_Lab.xlsx|||`2-b$`" type="V_String" />
+            <Field name="salary" source="File: C:\Users\mitan\Alteryx Saves\Alteryx_Final_Lab.xlsx|||`2-b$`" type="Double" />
+            <Field name="Min_salary_ThatYear" source="File: C:\Users\mitan\Alteryx Saves\Alteryx_Final_Lab.xlsx|||`2-b$`" type="Double" />
+            <Field name="Max_salary_ThatYear" source="File: C:\Users\mitan\Alteryx Saves\Alteryx_Final_Lab.xlsx|||`2-b$`" type="Double" />
+            <Field name="KeyPlayer" size="255" source="File: C:\Users\mitan\Alteryx Saves\Alteryx_Final_Lab.xlsx|||`2-b$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="258" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="playerID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="playerID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_yearID" selected="True" input="Left_" />
+                <SelectField field="Left_teamID" selected="True" input="Left_" />
+                <SelectField field="Left_playerID" selected="True" input="Left_" />
+                <SelectField field="Left_salary" selected="True" input="Left_" />
+                <SelectField field="Left_Min_salary_ThatYear" selected="True" input="Left_" />
+                <SelectField field="Left_Max_salary_ThatYear" selected="True" input="Left_" />
+                <SelectField field="Left_KeyPlayer" selected="True" input="Left_" />
+                <SelectField field="Right_playerID" selected="False" rename="Right_playerID" input="Right_" />
+                <SelectField field="Right_nameFirst" selected="True" input="Right_" />
+                <SelectField field="Right_nameLast" selected="True" input="Right_" />
+                <SelectField field="Right_nameGiven" selected="True" input="Right_" />
+                <SelectField field="Left_Min_salary" selected="True" input="Left_" />
+                <SelectField field="Left_Max_salary" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mitan\AppData\Local\Temp\Alteryx\Engine_7544_9528b9f4c42f4c468c160b4014b58873_\Engine_7544_2b961c726ef74442861283160c1d28cc~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="390" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[KeyPlayer] = "Min" OR [KeyPlayer] = "Max"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[KeyPlayer] = "Min" OR [KeyPlayer] = "Max"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="594" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\mitan\Alteryx Saves\Alteryx_Final_Lab.xlsx|||2-d</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Alteryx_Final_Lab.xlsx
+Query=2-d</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Join" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="True" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="True" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>2-d</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="827becd7-c0b5-4133-b380-13b610777e5c" />
+      <Telemetry>
+        <PreviousWorkflowId value="e315a23c-2158-4bce-8fa7-99931adf46e0" />
+        <OriginWorkflowId value="e315a23c-2158-4bce-8fa7-99931adf46e0" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
